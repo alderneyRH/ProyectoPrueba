@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/StyleARH.css">
     <style>
-          #formulario-registro {
+          #registration-form {
             display: none; /* Oculto por defecto */
           }
     </style>
@@ -23,7 +23,7 @@
       <a class="nav-link" href="#" onclick="mostrarFormulario(); return false;">REGISTRO</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#"> INICIAR SESION </a>
+      <a class="nav-link" href="#"> INICIAR SESIÓN </a>
     </li>
   </ul>
   <div class="nav-item-logo ml-auto">
@@ -33,7 +33,7 @@
 
   </div>
 </nav>
-        <div id="formulario-registro" class="container mt-4">
+        <div id="registration-form" class="container mt-4">
             <form>
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre"><br><br>
@@ -61,10 +61,10 @@
   </section>
 
   <!-- Artículos principales -->
-   
+
   <section class="articles-grid">
     <article class="article-card">
-      <img src="/images/robotico.jpg" alt="Artículo 1">
+      <img src="/images/robotico.jpg" alt="brazo roboticoy humano">
       <div class="article-text">
        <h2>IA en la Robótica Moderna</h2>
       <p>Descubre cómo la inteligencia artificial impulsa robots autónomos, asistentes personales y sistemas industriales inteligentes que aprenden y se adaptan a su entorno.</p>
@@ -81,7 +81,7 @@
 
   <!-- Datos curiosos -->
 
-  <section class="sidebar">
+  <section class="curiosities">
     <h2>🤖 Sabías que...</h2>
   <ul>
     <li>🧬 La IA puede detectar enfermedades en radiografías con más precisión que algunos médicos.</li>
@@ -96,7 +96,7 @@
   </footer>
   <script>
     function mostrarFormulario() {
-    document.getElementById("formulario-registro").style.display = "block";     }
+    document.getElementById("registration-form").style.display = "block";     }
    </script>
 </body>
 </html>
